@@ -1,0 +1,565 @@
+* {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: darkslategray;
+}
+
+.menu {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+h1 {
+    width: 35%;
+    margin-top: 5px;
+    font-size: 35px;
+    padding-top: 18px;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 2%;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav {
+    width: 65%;
+    height: 100%;
+    float: right;
+}
+
+nav ul {
+    padding: 0px;
+    width: 50%;
+    height: 100%;
+    display: table;
+}
+
+nav ul li {
+    width: 150px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #eeeeee;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    border-top: 5px solid #FAA232;
+    border-bottom: 5px solid #FAA232;
+}
+
+
+.conteudo {
+    height: 800px;
+    width: 100%;
+    background-color: #64b5f6;
+}
+/*------------------------------------Inserir----------------------------------*/
+.conteudo #inserir {
+    width: 100%;
+    position: relative;
+    top: 20%;
+    
+}
+
+.conteudo #inserir h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.conteudo #inserir label {
+    display: block;
+}
+
+.conteudo #inserir #botao {
+    height: 30px;
+    background-color:#FAA232;
+}
+
+.conteudo #inserir p {
+    border: #ffffff;
+    margin-bottom: 3%;
+}
+.conteudo #inserir a {
+    background-color:#a5d6a7;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*------------------------------------Inserir----------------------------------*/
+/*
+.conteudo div {
+    width: 35%;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    border-radius: 1%;
+}
+*/
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: darkslategray;
+}
+/*
+.conteudo #mostrar {
+    height: ;
+    width: 50%;
+    position: relative;
+    left: 30%;
+}
+/*---------------------- inserir dados do aluno----------------------------*/
+/*
+.conteudo div p {
+    height: 20px;
+    width: 15%;
+    margin-top: 2%;
+    padding: 2px;
+    /*background-color:#1565c0;
+    border-radius: 8px;
+}
+
+.conteudo div p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*----------------------------- inserido ----------------------------------*/
+/*
+.conteudo #dados_inseridos {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 20%;
+    left: 2%;
+    border-radius: 1%;
+}
+
+.conteudo #dados_inseridos p {
+    color: #eeeeee;
+}
+
+.conteudo #botoes_inserido {
+    height: 200px;
+    width: 100%;
+    background-color: green;
+
+}
+
+/*---------------------- mostrar Dados do aluno ---------------------------*/
+.conteudo #mostrar {
+    height: 300px;
+    width: 60%;
+    background-color:;
+    padding-top: 10%;
+    padding-left: 25%;
+}
+
+.conteudo #mostrar h2 {
+    color: #eeeeee;
+}
+
+
+.conteudo #mostrar #botoes {
+    width: 50%;
+    background-color: #64b5f6;
+    margin: auto;
+}
+
+.conteudo #botoes ul {
+    padding: 5px;
+    width: 80%;
+    height: 25px;
+    display: table;
+}
+
+.conteudo #botoes ul li {
+    width: 200px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 3%;
+}
+
+.conteudo #botoes ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: #1565c0;
+    padding: 2%;
+}
+
+.conteudo #botoes ul li:hover {
+    border: 3px solid #FAA232;
+    background-color: #1565c0;
+    padding: 1%;
+}
+/*
+.conteudo table {
+    background-color:#bbbbbb;
+}
+*/
+
+/*-------------------------- Mostrar cursos -------------------------------*/
+.conteudo #cursos {
+    padding-top: 5%;
+    
+}
+
+.conteudo #cursos center h2{
+    color: #ffffff;
+    padding-bottom: 1%;
+}
+
+.conteudo #cursos #mostrar_alunos {
+    width: 9%;
+    margin: auto;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+.conteudo #mostrar_alunos ul {
+    padding: 2px;
+    width: 80%;
+    height: 25px;
+    display: table;
+}
+
+.conteudo #mostrar_alunos ul li {
+    width: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2%;
+}
+
+.conteudo #mostrar_alunos ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: #1565c0;
+    padding: 4%;
+}
+
+.conteudo #mostrar_alunos ul li:hover {
+    border: 3px solid #FAA232;
+    background-color: #1565c0;
+    padding: 4%;
+}
+
+
+.conteudo #cursos  td {
+    padding: 1%;
+    text-align: center;
+}
+/*-------------------------- deletar-alunos -------------------------------*/
+.conteudo #deletar {
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 25%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.conteudo #deletar h3 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.conteudo #deletar #botao_deletar {
+    margin-left: 40%;
+    margin-bottom: 1%;
+    background-color:  #1565c0;
+    border: 2px solid #FAA232;
+    border-radius: 5px;
+    padding: 1%;
+    color: #ffffff;
+}
+
+.conteudo #deletar p {
+    border: #ffffff;
+    margin-bottom: 3%;
+}
+.conteudo #deletar a {
+    background-color: #FAA232;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*-------------------------- deletar-cursos -------------------------------*/
+.conteudo #deletar_curso {
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 25%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.conteudo #deletar_curso h3 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.conteudo #deletar_curso #botao_deletar_curso {
+    margin-left: 40%;
+    margin-bottom: 1%;
+    background-color:  #1565c0;
+    border: 2px solid #FAA232;
+    border-radius: 5px;
+    padding: 1%;
+    color: #ffffff;
+}
+
+.conteudo #deletar_curso p {
+    border: #ffffff;
+    margin-bottom: 3%;
+}
+
+.conteudo #deletar_curso a {
+    background-color: #FAA232;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*-------------------------- Atualizar-alunos -------------------------------*/
+.conteudo #atualizar {
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.conteudo #atualizar h3 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.conteudo #atualizar #botao_atualizar {
+    margin-left: 50%;
+    margin-bottom: 1%;
+    background-color:  #1565c0;
+    border: 2px solid #FAA232;
+    border-radius: 5px;
+    padding: 1%;
+    color: #ffffff;
+}
+
+.conteudo #atualizar p {
+    border: #ffffff;
+    margin-bottom: 2%;
+}
+
+.conteudo #atualizar  a {
+    background-color: #FAA232;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.conteudo #atualizar div {
+    margin-left: 15%;
+}
+
+/*-------------------------- inserido -------------------------------*/
+
+.conteudo #inserido {
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.conteudo #inserido h3 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.conteudo #inserido p {
+    border: #ffffff;
+    margin-bottom: 2%;
+}
+
+.conteudo #inserido a {
+    background-color: #FAA232;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*-------------------------- conf_deletar -------------------------------*/
+.conteudo #conf_deletar {
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.conteudo #conf_deletar h3 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.conteudo #conf_deletar p {
+    border: #ffffff;
+    margin-bottom: 2%;
+}
+
+.conteudo #conf_deletar a {
+    background-color: #FAA232;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*-------------------------- conf_atualizar -------------------------------*/
+
+.conteudo #conf_atualizar {
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.conteudo #conf_atualizar h3{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.conteudo #conf_atualizar p {
+    border: #ffffff;
+    margin-bottom: 2%;
+}
+
+.conteudo #conf_atualizar a {
+    background-color: #FAA232;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*-------------------------- conf_deletar_curso -------------------------------*/
+
+.conteudo #conf_deletar_curso {
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.conteudo #conf_deletar_curso h3 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.conteudo #conf_deletar_curso p {
+    border: #ffffff;
+    margin-bottom: 2%;
+}
+
+.conteudo #conf_deletar_curso a {
+    background-color: #FAA232;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*-------------------------- consulta -------------------------------*/
+
+.conteudo #consulta {
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.conteudo #consulta h2 {
+    color: #ffffff;
+}
+.conteudo #consulta p {
+    border: #ffffff;
+    margin-bottom: 2%;
+}
+
+.conteudo #consulta a {
+    background-color: #FAA232;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*-------------------------- pesq -------------------------------*/
+
+.conteudo #pesq {
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: darkgray;
+    padding: 2%;
+}
+
+.conteudo #pesq p {
+    border: #ffffff;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+
+.conteudo #pesq a {
+    background-color: #FAA232;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
